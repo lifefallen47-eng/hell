@@ -1,0 +1,42 @@
+{
+  "name": "hellfall-eternal-ascension-server",
+  "version": "1.0.0",
+  "description": "MMORPG backend server for Hellfall: Eternal Ascension",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "mmorpg",
+    "game",
+    "server",
+    "multiplayer"
+  ],
+  "author": "lifefallen47-eng",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "mongoose": "^7.0.3",
+    "pg": "^8.10.0",
+    "redis": "^4.6.5",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.7.0",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0",
+    "eslint": "^8.42.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
